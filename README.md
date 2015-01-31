@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/ahume/flight-with-rebroadcast.svg)](http://travis-ci.org/ahume/flight-with-rebroadcast)
 
-A [Flight](https://github.com/flightjs/flight) mixin for rebroadcasting an event having applyed a transformation to the event data.
+A [Flight](https://github.com/flightjs/flight) mixin for rebroadcasting an event having applied a transformation to the event data.
 
 This is useful when a component wishes to add data to an event triggered by a child component before it continues to bubble up the document.
 
@@ -35,8 +35,8 @@ function Component() {
 ### `rebroadcast`
 
 The mixin provides the `rebroadcast` method which takes a function that:
-    * takes an event and associated data
-    * returns transformed data
+* takes an event and associated data
+* returns transformed data
 
 `rebroadcast` returns an event handling method that will be used to handle the original event, transform the data and then retrigger it on the component node.
 

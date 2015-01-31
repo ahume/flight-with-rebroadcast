@@ -17,7 +17,7 @@
     "test": "karma start --single-run --reporters dots --browsers Firefox",
     "watch-test": "karma start"
   },
-  "description": "A Flight mixin for rebroadcast an event with transform applied to data.",
+  "description": "A Flight mixin for rebroadcasting an event with transform applied to data.",
   "main": "lib/with-rebroadcast.js",
   "directories": {
     "test": "test"
